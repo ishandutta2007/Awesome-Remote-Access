@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#181136"/>
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="40%" stop-color="#818cf8"/>
+      <stop offset="80%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <!-- Node Glow Gradients -->
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#9333ea" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25"/>
+    </pattern>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.75; transform: scale(1.08); }
+    }
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 80; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes pingDot {
+      0% { r: 3; opacity: 1; }
+      100% { r: 16; opacity: 0; }
+    }
+    .grid-bg { opacity: 0.6; }
+    .pulse-glow-1 {
+      animation: pulseGlow 6s ease-in-out infinite;
+      transform-origin: 180px 190px;
+    }
+    .pulse-glow-2 {
+      animation: pulseGlow 5s ease-in-out infinite 1.5s;
+      transform-origin: 1020px 190px;
+    }
+    .data-stream {
+      stroke-dasharray: 8 10;
+      animation: dashMove 2.5s linear infinite;
+    }
+    .data-stream-reverse {
+      stroke-dasharray: 6 12;
+      animation: dashMove 3.2s linear infinite reverse;
+    }
+    .floating-card {
+      animation: floatSlow 4.5s ease-in-out infinite;
+    }
+    .ping-circle {
+      animation: pingDot 2.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="380" rx="20" fill="url(#bgGrad)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#grid)" class="grid-bg"/>
+  <rect width="1200" height="380" rx="20" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Ambient Background Glowing Orbs -->
+  <circle cx="180" cy="190" r="140" fill="url(#cyanGlow)" class="pulse-glow-1"/>
+  <circle cx="1020" cy="190" r="140" fill="url(#purpleGlow)" class="pulse-glow-2"/>
+
+  <!-- Background Animated Network Connection Lines -->
+  <g opacity="0.65">
+    <!-- Curved Transmission Beam 1 -->
+    <path d="M 180 190 C 400 90, 800 90, 1020 190" fill="none" stroke="url(#lineGrad1)" stroke-width="2.5" class="data-stream"/>
+    <!-- Curved Transmission Beam 2 -->
+    <path d="M 180 190 C 400 290, 800 290, 1020 190" fill="none" stroke="url(#lineGrad1)" stroke-width="2" class="data-stream-reverse"/>
+  </g>
+
+  <!-- Left Client Terminal Graphic -->
+  <g transform="translate(110, 120)">
+    <!-- Terminal Box -->
+    <rect width="140" height="110" rx="12" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect width="140" height="24" rx="12" fill="#1e293b"/>
+    <circle cx="16" cy="12" r="4" fill="#ef4444"/>
+    <circle cx="28" cy="12" r="4" fill="#f59e0b"/>
+    <circle cx="40" cy="12" r="4" fill="#10b981"/>
+    <!-- Screen Display Elements -->
+    <rect x="16" y="38" width="55" height="6" rx="3" fill="#38bdf8" opacity="0.9"/>
+    <rect x="16" y="52" width="90" height="5" rx="2.5" fill="#64748b" opacity="0.7"/>
+    <rect x="16" y="64" width="70" height="5" rx="2.5" fill="#64748b" opacity="0.5"/>
+    <rect x="16" y="76" width="45" height="5" rx="2.5" fill="#38bdf8" opacity="0.6"/>
+    <!-- Status Indicator -->
+    <circle cx="120" cy="94" r="4" fill="#10b981"/>
+    <circle cx="120" cy="94" r="4" fill="none" stroke="#10b981" stroke-width="1.5" class="ping-circle"/>
+    <text x="70" y="130" fill="#94a3b8" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="1">CLIENT / RDP</text>
+  </g>
+
+  <!-- Right Host / Server Rack Graphic -->
+  <g transform="translate(950, 120)">
+    <!-- Server Stack Box -->
+    <rect width="140" height="110" rx="12" fill="#0f172a" fill-opacity="0.9" stroke="#c084fc" stroke-width="1.5"/>
+    <rect width="140" height="24" rx="12" fill="#1e293b"/>
+    <circle cx="16" cy="12" r="4" fill="#c084fc"/>
+    <circle cx="28" cy="12" r="4" fill="#818cf8"/>
+    <!-- Blade 1 -->
+    <rect x="14" y="34" width="112" height="16" rx="4" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8"/>
+    <circle cx="24" cy="42" r="3" fill="#10b981"/>
+    <line x1="36" y1="42" x2="65" y2="42" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="116" cy="42" r="2.5" fill="#38bdf8"/>
+    <!-- Blade 2 -->
+    <rect x="14" y="56" width="112" height="16" rx="4" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8"/>
+    <circle cx="24" cy="64" r="3" fill="#10b981"/>
+    <line x1="36" y1="64" x2="75" y2="64" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="116" cy="64" r="2.5" fill="#c084fc"/>
+    <!-- Blade 3 -->
+    <rect x="14" y="78" width="112" height="16" rx="4" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8"/>
+    <circle cx="24" cy="86" r="3" fill="#10b981"/>
+    <line x1="36" y1="86" x2="55" y2="86" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="116" cy="86" r="2.5" fill="#10b981"/>
+    <!-- Status Ping -->
+    <circle cx="116" cy="86" r="2.5" fill="none" stroke="#10b981" stroke-width="1.5" class="ping-circle"/>
+    <text x="70" y="130" fill="#94a3b8" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="1">HOST / RELAY</text>
+  </g>
+
+  <!-- Foreground Main Content (Center) -->
+  <g text-anchor="middle">
+    <!-- Category Mini-Tag -->
+    <g transform="translate(600, 68)">
+      <rect x="-105" y="-14" width="210" height="28" rx="14" fill="#1e293b" fill-opacity="0.85" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="-85" cy="0" r="4" fill="#38bdf8"/>
+      <text x="6" y="4" fill="#e2e8f0" font-size="12" font-weight="700" letter-spacing="1.5">CURATED AWESOME LIST</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="145" fill="url(#titleGrad)" font-size="46" font-weight="900" letter-spacing="-0.5" filter="url(#softGlow)">AWESOME REMOTE ACCESS</text>
+    <text x="600" y="145" fill="url(#titleGrad)" font-size="46" font-weight="900" letter-spacing="-0.5">AWESOME REMOTE ACCESS</text>
+
+    <!-- Subtitle -->
+    <text x="600" y="185" fill="#cbd5e1" font-size="17" font-weight="500" letter-spacing="0.2">
+      Ultimate Directory of Remote Desktop Software, Game Streaming, Self-Hosted Relays &amp; Infrastructure
+    </text>
+
+    <!-- Interactive Feature Badges / Pills -->
+    <g transform="translate(600, 238)">
+      <!-- Pill 1: Ultra-Low Latency -->
+      <g transform="translate(-320, 0)">
+        <rect x="-85" y="-16" width="170" height="32" rx="16" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.2"/>
+        <text x="0" y="5" fill="#38bdf8" font-size="12.5" font-weight="700">⚡ Low Latency 60+ FPS</text>
+      </g>
+
+      <!-- Pill 2: Open Source & Self Hosted -->
+      <g transform="translate(-105, 0)">
+        <rect x="-105" y="-16" width="210" height="32" rx="16" fill="#0f172a" fill-opacity="0.9" stroke="#818cf8" stroke-width="1.2"/>
+        <text x="0" y="5" fill="#a5b4fc" font-size="12.5" font-weight="700">🔒 Self-Hosted &amp; Open Source</text>
+      </g>
+
+      <!-- Pill 3: RDP / VNC / WebRTC -->
+      <g transform="translate(115, 0)">
+        <rect x="-95" y="-16" width="190" height="32" rx="16" fill="#0f172a" fill-opacity="0.9" stroke="#c084fc" stroke-width="1.2"/>
+        <text x="0" y="5" fill="#d8b4fe" font-size="12.5" font-weight="700">🖥️ Cross-Platform Protocols</text>
+      </g>
+
+      <!-- Pill 4: Zero Trust -->
+      <g transform="translate(315, 0)">
+        <rect x="-85" y="-16" width="170" height="32" rx="16" fill="#0f172a" fill-opacity="0.9" stroke="#f472b6" stroke-width="1.2"/>
+        <text x="0" y="5" fill="#f472b6" font-size="12.5" font-weight="700">🛡️ Zero-Trust Security</text>
+      </g>
+    </g>
+
+    <!-- Bottom Metrics Bar -->
+    <g transform="translate(600, 310)">
+      <line x1="-320" y1="0" x2="320" y2="0" stroke="#334155" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+      <text x="-220" y="24" fill="#94a3b8" font-size="12" font-weight="500">🎮 Game Streaming</text>
+      <circle cx="-135" cy="20" r="2.5" fill="#64748b"/>
+      <text x="-50" y="24" fill="#94a3b8" font-size="12" font-weight="500">🏢 IT Support &amp; MSPs</text>
+      <circle cx="45" cy="20" r="2.5" fill="#64748b"/>
+      <text x="135" y="24" fill="#94a3b8" font-size="12" font-weight="500">🌐 Browser-Based HTML5</text>
+      <circle cx="230" cy="20" r="2.5" fill="#64748b"/>
+      <text x="290" y="24" fill="#94a3b8" font-size="12" font-weight="500">🏠 Homelab Relays</text>
+    </g>
+  </g>
+</svg>
