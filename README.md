@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Remote-Access/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Remote-Access?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Remote-Access/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Remote-Access?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Access/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Remote-Access?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Access/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Remote-Access?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Access/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -65,72 +65,72 @@ The following table benchmarks the leading commercial and hosted remote access s
 
 ## 💻 Open-Source GitHub Projects
 
-Explore the top self-hostable remote desktop servers, game stream hosts, clientless web gateways, and secure access bastions. Sorted in **descending order by GitHub star count**.
+Explore the top self-hostable remote desktop servers, game stream hosts, clientless web gateways, and secure access bastions. Sorted in **descending order by GitHub Stars_Count**.
 
-1. **[RustDesk](https://github.com/rustdesk/rustdesk)** [![GitHub stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social&color=white)](https://github.com/rustdesk/rustdesk/stargazers)  
+1. **[RustDesk](https://github.com/rustdesk/rustdesk)** [![GitHub_Stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social&color=white)](https://github.com/rustdesk/rustdesk/stargazers)  
    **The leading open-source TeamViewer and AnyDesk alternative.** Written in Rust for maximum speed, memory safety, and minimal latency. Features end-to-end encryption, file transfer, real-time chat, clipboard synchronization, and TCP tunneling. Provides a turnkey self-hosted rendezvous and relay server via Docker to ensure total data sovereignty and bypass corporate firewalls. Supports Windows, macOS, Linux (including Wayland multi-monitor scaling), Android, and iOS. *Licensed under AGPL-3.0.*
 
-2. **[Sunshine](https://github.com/LizardByte/Sunshine)** [![GitHub stars](https://img.shields.io/github/stars/LizardByte/Sunshine?style=social&color=white)](https://github.com/LizardByte/Sunshine/stargazers)  
+2. **[Sunshine](https://github.com/LizardByte/Sunshine)** [![GitHub_Stars](https://img.shields.io/github/stars/LizardByte/Sunshine?style=social&color=white)](https://github.com/LizardByte/Sunshine/stargazers)  
    **The premier open-source game stream host for Moonlight clients.** Originally developed as an open replacement for NVIDIA GameStream, Sunshine offers hardware-accelerated video encoding for AMD (AMF), Intel (QuickSync), and NVIDIA (NVENC) GPUs with minimal glass-to-glass latency. Features a modern web management interface, PIN-based pairing, gamepad rumble, and virtual display drivers. Runs on Windows, Linux, macOS, and FreeBSD. *Licensed under GPL-3.0.*
 
-3. **[NetBird](https://github.com/netbirdio/netbird)** [![GitHub stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social&color=white)](https://github.com/netbirdio/netbird/stargazers)  
+3. **[NetBird](https://github.com/netbirdio/netbird)** [![GitHub_Stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social&color=white)](https://github.com/netbirdio/netbird/stargazers)  
    **Zero-trust peer-to-peer remote network and machine access engine.** Connects servers, remote workstations, homelab containers, and mobile devices across any NAT or firewall without port forwarding. Built on top of WireGuard with automatic kernel acceleration, SSO/IdP integration (Okta, Azure AD, Google Workspace), MFA, granular access control policies, and an open-source self-hosted management server. *Licensed under BSD-3-Clause.*
 
-4. **[Teleport](https://github.com/gravitational/teleport)** [![GitHub stars](https://img.shields.io/github/stars/gravitational/teleport?style=social&color=white)](https://github.com/gravitational/teleport/stargazers)  
+4. **[Teleport](https://github.com/gravitational/teleport)** [![GitHub_Stars](https://img.shields.io/github/stars/gravitational/teleport?style=social&color=white)](https://github.com/gravitational/teleport/stargazers)  
    **Enterprise-grade identity-aware access plane for remote infrastructure.** Provides zero-trust access for SSH servers, Windows Remote Desktop (RDP), Kubernetes clusters, databases, and web applications without VPNs. Includes cryptographic audit logs, session recording with playback, unified RBAC, and seamless integration with existing SSO providers. *Licensed under AGPL-3.0.*
 
-5. **[Moonlight](https://github.com/moonlight-stream/moonlight-qt)** [![GitHub stars](https://img.shields.io/github/stars/moonlight-stream/moonlight-qt?style=social&color=white)](https://github.com/moonlight-stream/moonlight-qt/stargazers)  
+5. **[Moonlight](https://github.com/moonlight-stream/moonlight-qt)** [![GitHub_Stars](https://img.shields.io/github/stars/moonlight-stream/moonlight-qt?style=social&color=white)](https://github.com/moonlight-stream/moonlight-qt/stargazers)  
    **High-performance remote game streaming client.** Pairs directly with Sunshine (or legacy NVIDIA GameStream hosts) to deliver up to 4K resolution at 120+ FPS with HDR support and imperceptible input latency. Available for Windows, macOS, Linux, Steam Deck, Android, iOS, Apple TV, Raspberry Pi, and homebrew consoles. Supports up to 4 local controllers, audio pass-through, and mouse emulation. *Licensed under GPL-3.0.*
 
-6. **[Termix](https://github.com/Termix-SSH/Termix)** [![GitHub stars](https://img.shields.io/github/stars/Termix-SSH/Termix?style=social&color=white)](https://github.com/Termix-SSH/Termix/stargazers)  
+6. **[Termix](https://github.com/Termix-SSH/Termix)** [![GitHub_Stars](https://img.shields.io/github/stars/Termix-SSH/Termix?style=social&color=white)](https://github.com/Termix-SSH/Termix/stargazers)  
    **Self-hosted, plugin-based server and infrastructure management console.** Delivers clientless, browser-based remote access featuring an interactive SSH terminal, background file editing, network tunneling, and hardware metric telemetry. Features an extensible plugin architecture for homelab and production cluster operations. *Licensed under GPL-3.0.*
 
-7. **[noVNC](https://github.com/novnc/noVNC)** [![GitHub stars](https://img.shields.io/github/stars/novnc/noVNC?style=social&color=white)](https://github.com/novnc/noVNC/stargazers)  
+7. **[noVNC](https://github.com/novnc/noVNC)** [![GitHub_Stars](https://img.shields.io/github/stars/novnc/noVNC?style=social&color=white)](https://github.com/novnc/noVNC/stargazers)  
    **HTML5 VNC client implemented using WebSockets and Canvas.** Operates smoothly in any modern web browser on desktop or mobile without browser plugins or client installations. Widely integrated into virtualization platforms (such as Proxmox VE, OpenStack, and Kubernetes KubeVirt) to provide direct, embedded remote console access. *Licensed under MPL-2.0.*
 
-8. **[FreeRDP](https://github.com/FreeRDP/FreeRDP)** [![GitHub stars](https://img.shields.io/github/stars/FreeRDP/FreeRDP?style=social&color=white)](https://github.com/FreeRDP/FreeRDP/stargazers)  
+8. **[FreeRDP](https://github.com/FreeRDP/FreeRDP)** [![GitHub_Stars](https://img.shields.io/github/stars/FreeRDP/FreeRDP?style=social&color=white)](https://github.com/FreeRDP/FreeRDP/stargazers)  
    **The industry-standard free and open-source Remote Desktop Protocol (RDP) implementation.** Powers the underlying RDP capabilities of numerous commercial and open-source applications (including Remmina, Guacamole, and various thin clients). Complies fully with Microsoft RDP specifications, supporting modern TLS/NLA encryption, RemoteFX, multi-monitor layouts, and clipboard/audio redirection. *Licensed under Apache-2.0.*
 
-9. **[Firezone](https://github.com/firezone/firezone)** [![GitHub stars](https://img.shields.io/github/stars/firezone/firezone?style=social&color=white)](https://github.com/firezone/firezone/stargazers)  
+9. **[Firezone](https://github.com/firezone/firezone)** [![GitHub_Stars](https://img.shields.io/github/stars/firezone/firezone?style=social&color=white)](https://github.com/firezone/firezone/stargazers)  
    **Blazing-fast zero-trust remote access gateway.** Built with Rust and WireGuard to replace legacy corporate VPNs. Offers a modern web administrative portal, automated 1-line Docker deployment, split tunneling, multi-factor authentication (MFA), and single sign-on (SSO) integration. Enables secure access to private subnets and internal servers without open incoming ports. *Licensed under Apache-2.0.*
 
-10. **[Warpgate](https://github.com/warp-tech/warpgate)** [![GitHub stars](https://img.shields.io/github/stars/warp-tech/warpgate?style=social&color=white)](https://github.com/warp-tech/warpgate/stargazers)  
+10. **[Warpgate](https://github.com/warp-tech/warpgate)** [![GitHub_Stars](https://img.shields.io/github/stars/warp-tech/warpgate?style=social&color=white)](https://github.com/warp-tech/warpgate/stargazers)  
     **Smart SSH, HTTPS, and RDP bastion gateway.** Written in Rust, Warpgate operates as a transparent proxy that works with standard native SSH and RDP clients without special agents. Features session recording, browser-based credential administration, SSO authentication, and per-user protocol routing. *Licensed under Apache-2.0.*
 
-11. **[TigerVNC](https://github.com/TigerVNC/tigervnc)** [![GitHub stars](https://img.shields.io/github/stars/TigerVNC/tigervnc?style=social&color=white)](https://github.com/TigerVNC/tigervnc/stargazers)  
+11. **[TigerVNC](https://github.com/TigerVNC/tigervnc)** [![GitHub_Stars](https://img.shields.io/github/stars/TigerVNC/tigervnc?style=social&color=white)](https://github.com/TigerVNC/tigervnc/stargazers)  
     **High-performance, battle-tested Virtual Network Computing (VNC) server and viewer.** Focuses on speed and 3D application performance by leveraging modern JPEG and Tight encoding algorithms. Cross-platform support across Linux, Windows, and macOS, with native X11 integration and robust multi-screen capabilities. *Licensed under GPL-2.0.*
 
-12. **[MeshCentral](https://github.com/Ylianst/MeshCentral)** [![GitHub stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=social&color=white)](https://github.com/Ylianst/MeshCentral/stargazers)  
+12. **[MeshCentral](https://github.com/Ylianst/MeshCentral)** [![GitHub_Stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=social&color=white)](https://github.com/Ylianst/MeshCentral/stargazers)  
     **Complete web-based remote computer management and monitoring suite.** Node.js backend pairs with a lightweight multi-platform daemon (Windows, Linux, macOS, FreeBSD) to deliver browser-based remote desktop control, terminal access, file management, event logs, and Intel AMT hardware-level out-of-band management. Built-in multi-factor authentication, LDAP/Active Directory support, and customizable device permissions. *Licensed under Apache-2.0.*
 
-13. **[xrdp](https://github.com/neutrinolabs/xrdp)** [![GitHub stars](https://img.shields.io/github/stars/neutrinolabs/xrdp?style=social&color=white)](https://github.com/neutrinolabs/xrdp/stargazers)  
+13. **[xrdp](https://github.com/neutrinolabs/xrdp)** [![GitHub_Stars](https://img.shields.io/github/stars/neutrinolabs/xrdp?style=social&color=white)](https://github.com/neutrinolabs/xrdp/stargazers)  
     **Open-source Remote Desktop Protocol server for Linux and Unix.** Allows standard Windows Remote Desktop Connection clients (MSTSC) or Microsoft Remote Desktop mobile apps to seamlessly connect to Linux desktop environments (GNOME, XFCE, KDE, MATE). Bridges RDP client connections to X11 displays using Xorg or Xvnc backends. *Licensed under Apache-2.0.*
 
-14. **[KasmVNC](https://github.com/kasmtech/KasmVNC)** [![GitHub stars](https://img.shields.io/github/stars/kasmtech/KasmVNC?style=social&color=white)](https://github.com/kasmtech/KasmVNC/stargazers)  
+14. **[KasmVNC](https://github.com/kasmtech/KasmVNC)** [![GitHub_Stars](https://img.shields.io/github/stars/kasmtech/KasmVNC?style=social&color=white)](https://github.com/kasmtech/KasmVNC/stargazers)  
     **Next-generation web-native VNC server and client.** Designed specifically for modern web streaming, KasmVNC renders directly to the browser via WebSockets using JPEG, WebP, and H.264 video compression for exceptional frame rates and reduced bandwidth consumption. Includes built-in credential management, audio pass-through, and data loss prevention (DLP) controls. *Licensed under GPL-2.0.*
 
-15. **[Remotely](https://github.com/immense/Remotely)** [![GitHub stars](https://img.shields.io/github/stars/immense/Remotely?style=social&color=white)](https://github.com/immense/Remotely/stargazers)  
+15. **[Remotely](https://github.com/immense/Remotely)** [![GitHub_Stars](https://img.shields.io/github/stars/immense/Remotely?style=social&color=white)](https://github.com/immense/Remotely/stargazers)  
     **Open-source on-demand remote support and unattended access tool for MSPs.** Developed with .NET 8, C#, and Blazor, Remotely allows technicians to initiate quick customer support sessions via a 6-digit code or deploy permanent background agents. Offers remote screen control, interactive PowerShell/Bash scripting, audio streaming, and bidirectional file transfer. *Licensed under GPL-3.0.*
 
-16. **[Nexterm](https://github.com/gnmyt/Nexterm)** [![GitHub stars](https://img.shields.io/github/stars/gnmyt/Nexterm?style=social&color=white)](https://github.com/gnmyt/Nexterm/stargazers)  
+16. **[Nexterm](https://github.com/gnmyt/Nexterm)** [![GitHub_Stars](https://img.shields.io/github/stars/gnmyt/Nexterm?style=social&color=white)](https://github.com/gnmyt/Nexterm/stargazers)  
     **Open-source server management gateway for SSH, VNC, and RDP.** Features an elegant web console with SFTP file exploration, Proxmox LXC/QEMU integration, two-factor authentication, OIDC single sign-on, and organization-based server partitioning. Runs as a single Docker container. *Licensed under MIT.*
 
-17. **[Apache Guacamole](https://github.com/apache/guacamole-server)** [![GitHub stars](https://img.shields.io/github/stars/apache/guacamole-server?style=social&color=white)](https://github.com/apache/guacamole-server/stargazers)  
+17. **[Apache Guacamole](https://github.com/apache/guacamole-server)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/guacamole-server?style=social&color=white)](https://github.com/apache/guacamole-server/stargazers)  
     **Clientless HTML5 remote desktop gateway.** Guacamole translates standard remote desktop protocols (VNC, RDP, SSH, Telnet) into a native web interface rendered in any HTML5 browser. Because no plugins or agent installations are required on client machines, it is the premier choice for zero-footprint enterprise remote portals and classroom environments. *Licensed under Apache-2.0.*
 
-18. **[Sshwifty](https://github.com/nirui/sshwifty)** [![GitHub stars](https://img.shields.io/github/stars/nirui/sshwifty?style=social&color=white)](https://github.com/nirui/sshwifty/stargazers)  
+18. **[Sshwifty](https://github.com/nirui/sshwifty)** [![GitHub_Stars](https://img.shields.io/github/stars/nirui/sshwifty?style=social&color=white)](https://github.com/nirui/sshwifty/stargazers)  
     **Web-based SSH and Telnet terminal connector.** Written in Go and Vue.js, Sshwifty delivers a lightweight, responsive command-line interface directly within any web browser. Features multi-tab session management, WebSockets communication, and containerized deployment. *Licensed under AGPL-3.0.*
 
-19. **[Remmina](https://github.com/FreeRDP/Remmina)** [![GitHub stars](https://img.shields.io/github/stars/FreeRDP/Remmina?style=social&color=white)](https://github.com/FreeRDP/Remmina/stargazers)  
+19. **[Remmina](https://github.com/FreeRDP/Remmina)** [![GitHub_Stars](https://img.shields.io/github/stars/FreeRDP/Remmina?style=social&color=white)](https://github.com/FreeRDP/Remmina/stargazers)  
     **The classic GTK+ remote desktop client for POSIX systems.** Supports an extensive range of network protocols including RDP, VNC, SPICE, SSH, and SFTP. Features saved connection profiles, multi-monitor desktop full-screen modes, SSH tunneling, and proxy configuration. *Licensed under GPL-2.0.*
 
-20. **[ShellHub](https://github.com/shellhub-io/shellhub)** [![GitHub stars](https://img.shields.io/github/stars/shellhub-io/shellhub?style=social&color=white)](https://github.com/shellhub-io/shellhub/stargazers)  
+20. **[ShellHub](https://github.com/shellhub-io/shellhub)** [![GitHub_Stars](https://img.shields.io/github/stars/shellhub-io/shellhub?style=social&color=white)](https://github.com/shellhub-io/shellhub/stargazers)  
     **Modern centralized SSH gateway for edge devices and Linux servers.** Bypasses firewalls and NAT configurations using reverse SSH tunneling. Provides a central web UI for terminal access, cryptographic key management, session audit recording, and fleet grouping. *Licensed under Apache-2.0.*
 
-21. **[Rabbit Remote Control](https://github.com/KangLin/RabbitRemoteControl)** [![GitHub stars](https://img.shields.io/github/stars/KangLin/RabbitRemoteControl?style=social&color=white)](https://github.com/KangLin/RabbitRemoteControl/stargazers)  
+21. **[Rabbit Remote Control](https://github.com/KangLin/RabbitRemoteControl)** [![GitHub_Stars](https://img.shields.io/github/stars/KangLin/RabbitRemoteControl?style=social&color=white)](https://github.com/KangLin/RabbitRemoteControl/stargazers)  
     **Cross-platform, multi-protocol remote desktop and administration suite.** Unifies VNC, RDP, SSH, TELNET, serial port connections, and FTP/SFTP file transfers under an intuitive desktop client for Windows, Linux, Android, and macOS. *Licensed under GPL-3.0.*
 
-22. **[ScottiBYTE Assist](https://github.com/ScottiBYTE/scottibyte-assist)** [![GitHub stars](https://img.shields.io/github/stars/ScottiBYTE/scottibyte-assist?style=social&color=white)](https://github.com/ScottiBYTE/scottibyte-assist/stargazers)  
+22. **[ScottiBYTE Assist](https://github.com/ScottiBYTE/scottibyte-assist)** [![GitHub_Stars](https://img.shields.io/github/stars/ScottiBYTE/scottibyte-assist?style=social&color=white)](https://github.com/ScottiBYTE/scottibyte-assist/stargazers)  
     **Self-hosted attended remote assistance system.** Built specifically for technician-to-client ad-hoc helpdesk sessions. Clients connect via a temporary six-digit security code with explicit user permission prompts, protecting client privacy while enabling swift remote troubleshooting without permanent daemons. *Licensed under GPL-3.0.*
 
 ---
@@ -156,14 +156,14 @@ Contributions are warmly welcomed! Help expand and refine this ecosystem directo
 2. **Create a new feature branch**: `git checkout -b add-new-remote-tool`.
 3. **Add or update an entry** in `README.md`:
    - Follow the established markdown table or numbered list structure.
-   - For open-source projects, include the repository URL and a valid social star badge linked to the stargazers page:
+   - For open-source projects, include the repository URL and a valid social Stars_Badge linked to the stargazers page:
      ```markdown
-     **[ProjectName](https://github.com/owner/repo)** [![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)
+     **[ProjectName](https://github.com/owner/repo)** [![GitHub_Stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)
      ```
    - For commercial/SaaS tools, ensure accurate starting tier pricing and specific free plan/trial limits.
 4. **Sort entries properly**:
    - SaaS entries: Sort by company valuation/revenue descending.
-   - Open-source entries: Sort by GitHub star count descending.
+   - Open-source entries: Sort by GitHub Stars_Count descending.
 5. **Commit your modifications** with a descriptive commit message: `git commit -m "Add <ToolName> to Remote Access list"`.
 6. **Push to your branch and open a Pull Request** with a concise explanation.
 
